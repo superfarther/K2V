@@ -1,0 +1,9 @@
+[submodule "utils"]
+	path = utils
+	url = git@github.com:superfarther/utils.git
+[submodule "verl"]
+	path = verl
+	url = git@github.com:superfarther/verl.git
+[submodule "graphgen-mask"]
+	path = graphgen-mask
+	url = git@github.com:superfarther/graphgen-mask.git
