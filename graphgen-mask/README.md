@@ -16,7 +16,7 @@ Install the necessary dependencies.
 
 **Note:** This module is significantly outdated compared to the official [GraphGen](https://github.com/open-sciencelab/GraphGen). To use the latest code for synthesizing QA pairs, you can visit the official GraphGen repository and navigate to the examples/generate/generate_masked_fill_in_blank_qa.
 
-## Quick Start
+## Synthesize QA Pairs
 1. In order to construct a KG from corpus, K2V deploy a LLM using **[vLLM](https://github.com/vllm-project/vllm)** to perform Named Entity Recognition (NER) and Relation Extraction (RE).
    ```bash
    vllm serve Qwen/Qwen2.5-72B-Instruct --max_model_len 32768

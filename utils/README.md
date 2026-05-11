@@ -24,7 +24,7 @@ This module contains the utils used by K2V to synthesize checklist.
     python verl/convert_json_to_parquet.py
     ```
 
-4. **[Verl](https://github.com/superfarther/verl)** needs a validation set to be specified to start training. Here, we choose to randomly sample from the training set as the validation set.
+4. **[verl](https://github.com/superfarther/verl)** needs a validation set to be specified to start training. Here, we choose to randomly sample from the training set as the validation set.
     ```bash
     python verl/get_val_dataset.py
     ```

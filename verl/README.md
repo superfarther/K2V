@@ -26,7 +26,7 @@ K2V uses **[vLLM](https://github.com/vllm-project/vllm)** as the inference frame
 - tensordict
 - nvidia-cudnn-cu12
 
-## Quick Start
+## RL training
 1. Deploy a judge model using vLLM to verify the model's reasoning process. For example, we can use Qwen2.5-7B-Instruct as the judge model.
     ```bash
     CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve Qwen/Qwen2.5-7B-Instruct--tensor-parallel-size 4 --gpu_memory_utilization 0.7 

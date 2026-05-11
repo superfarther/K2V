@@ -1,11 +1,23 @@
 # Knowledge-to-Verification: Exploring RLVR for LLMs in Knowledge-Intensive Domains.
 
+<details close>
+<summary><b>📚 Table of Contents</b></summary>
+
+- 📝 [What is K2V](#-what-is-k2v)
+- 📌 [News](#-news)
+- 🏗️ [Overview](#overview)
+- 🚀 [Getting started](#-getting-started)
+- 🍀 [Acknowledgements](#-acknowledgements)
+- 📜 [License](#-license)
+
+## 📝 What is K2V
 K2V (Knowledge-to-Verification) is a framework for extending RLVR to knowledge-intensive domains (for example, unverifiable domains such as agriculture, law, and medicine). It builds verifiable training signals from domain corpora, validates the model's reasoning process without human supervision, and uses those signals to train LLMs.
 
-## News
+## 📌 News
 [2026.04.06] K2V has been accepted by **ACL 2026 Main Conference** (The link to the paper will be updated soon).
 
-## Overview
+<a id="overview"></a>
+## 🏗️ Overview
 
 #### method
 K2V extends RLVR to knowledge-intensive domains by converting unstructured domain corpora into verifiable QA pairs and by rewarding both answer correctness and reasoning quality.
@@ -40,7 +52,7 @@ The end-to-end workflow is:
 Domain corpus -> knowledge graph construction -> verifiable QA pairs synthesis-> checklist synthesis -> RL training
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 Clone the repository:
 
@@ -94,7 +106,7 @@ python verl/get_val_dataset.py
 
 See [`utils/README.md`](utils/README.md) for details.
 
-#### 3. Training
+#### 3. RL Training
 
 Install verl:
 
@@ -122,3 +134,10 @@ bash K2V-example/config.sh
 ```
 
 See [`verl/README.md`](verl/README.md) for details
+
+## 🍀 Acknowledgements
+- [Graphgen](https://github.com/InternScience/GraphGen): An efficient framework for synthesizing SFT data
+- [verl](https://github.com/verl-project/verl): A Flexible and Efficient RL Post-Training Framework
+
+## 📜 License
+This project is licensed under the [Apache License 2.0](LICENSE).
