@@ -10,6 +10,8 @@
 - 🍀 [Acknowledgements](#-acknowledgements)
 - 📜 [License](#-license)
 
+</details>
+
 ## 📝 What is K2V
 K2V (Knowledge-to-Verification) is a framework for extending RLVR to knowledge-intensive domains (for example, unverifiable domains such as agriculture, law, and medicine). It builds verifiable training signals from domain corpora, validates the model's reasoning process without human supervision, and uses those signals to train LLMs.
 
